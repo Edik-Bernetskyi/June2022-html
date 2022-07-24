@@ -1,0 +1,32 @@
+body{
+    background: aqua;
+}
+
+h2{
+    background: deeppink;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: limegreen;
+    background: deeppink;
+}
+
+p{
+    color: firebrick;
+}
+
+.fam{
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: mintcream;
+}
+
+li{
+    color: lime;
+}

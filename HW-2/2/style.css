@@ -1,0 +1,45 @@
+body{
+    color: white;
+    font-size: 40px;
+    font-family: "Agency FB", sans-serif;
+}
+
+.father{
+    margin: auto;
+    width: 800px;
+    height: 700px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header{
+    background: blue;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    background: blue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    height: 250px;
+    width: 250px;
+    background: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

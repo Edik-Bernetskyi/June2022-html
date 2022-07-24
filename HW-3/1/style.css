@@ -1,0 +1,57 @@
+.father{
+    margin: 0 auto;
+    width: 90vw;
+    height: 90vh;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.picture{
+    width: 400px;
+    height: 500px;
+    border: 1px solid lime;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.picture p {
+    padding: 0 50px 0 50px;
+}
+
+.icon{
+    width: 160px;
+    height: 160px;
+    border: 2px solid cyan;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background: lime;
+    position: absolute;
+    top: -80px;
+}
+
+.btn{
+    margin-top: 100px;
+    width: 300px;
+    height: 50px;
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.btn:hover{
+    background: lime;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+}
